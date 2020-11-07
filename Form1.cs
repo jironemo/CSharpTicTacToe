@@ -120,6 +120,7 @@ namespace TicTacToe
         }
         public void resetBoard()
         {
+            player = 1;
             foreach(Control c in this.Controls)
             {
                 if(c is PictureBox)

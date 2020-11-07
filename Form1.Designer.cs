@@ -146,7 +146,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 43);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Reset Board";
+            this.button1.Text = "New Game";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -167,7 +167,7 @@
             this.Controls.Add(this.box01);
             this.Controls.Add(this.box00);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tic Tac Toe";
             ((System.ComponentModel.ISupportInitialize)(this.box00)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box10)).EndInit();
